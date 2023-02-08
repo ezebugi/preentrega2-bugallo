@@ -35,5 +35,15 @@ else {
    alert(mensaje);
  }
 
- 
+ function despedir () {
+  respuesta = prompt("que tengas un agradeble dia");
+  if (respuesta == "gracias" ){
+    alert(":)");
+  }
+  else {
+    alert ("entonces no lo tengas...");
+  }
+}
+despedir()
 
+ 
